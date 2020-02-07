@@ -1,0 +1,88 @@
+Part 1: Mini-Quiz:
+
+1. True or false: An if statement can live without an else statement. 
+
+TRUE
+
+2. True or false: An else statement can live without an if statement. 
+
+FALSE
+
+3. True or false: An elif statement can live without an if statement. 
+
+FALSE
+
+4. True or false: An if + elif statement can live without an else statement. 
+
+TRUE
+
+5. True or false: The following statements are equivalent.
+
+True 
+
+1. In the following code block, what prints?
+
+1, 2, 4, 7, 8, 9
+
+1. In the following code block, what prints?
+
+2
+
+PART 2: Reading Material
+
+1. What is a nested loop?
+
+A nested loop is a loop that takes place inside another loop.
+
+2. Which kind of loop is based on a conditional statement: while loops or for loops?
+
+A while loop is based on a conditional statement.
+
+3. When you want to iterate a specific number of times, would you typically use a while loop or a
+for loop?
+
+You can use either but a for loop is usually best practice.
+
+4. Is it possible to loop through a string one letter at a time? What is the example given in the article?
+
+Yes,
+
+sammy = 'Sammy'
+
+for letter in sammy:
+   print(letter)
+
+Output
+S
+a
+m
+m
+y
+
+5. Extrapolate from what you learned in the articles: Do you think a for loop be nested inside a while loop? Why or why not? 
+
+Yes, a for loop can be nested in a while loop. Any kind of loop can be nested in any other kind of loop.
+
+Here is an example:
+
+num = 9
+
+while num < 10:
+    for i in range(num):
+        print(num)
+        num = num + i
+
+OUTPUT:
+9
+9
+10
+12
+15
+19
+24
+30
+37
+
+VISUALIZATION OF CODE:
+
+http://www.pythontutor.com/visualize.html#code=num%20%3D%209%0A%0Awhile%20num%20%3C%2010%3A%0A%20%20%20%20for%20i%20in%20range%28num%29%3A%0A%20%20%20%20%20%20%20%20print%28num%29%0A%20%20%20%20%20%20%20%20num%20%3D%20num%20%2B%20i&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false
